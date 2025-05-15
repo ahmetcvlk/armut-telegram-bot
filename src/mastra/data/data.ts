@@ -1,3 +1,16 @@
+export interface Worker {
+  id: string;
+  fullName: string;
+  category: string;
+  location: string;
+  phoneNumber: string;
+  experience: number;
+  rating: number;
+  reviewCount: number;
+  availability: boolean;
+  createdAt: Date;
+}
+
 export const data = {
   "serviceCategories": [
     {
